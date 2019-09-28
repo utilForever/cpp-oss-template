@@ -2,6 +2,21 @@ language: cpp
 
 matrix:
   include:
+    - name: Test Ubuntu 16.04 + gcc-7 + codecov
+      os: linux
+      addons:
+        apt:
+          sources:
+            - ubuntu-toolchain-r-test
+          packages:
+            - g++-7
+      dist: xenial
+      sudo: required
+      compiler: gcc
+      env:
+        - BUILD_TYPE=Debug
+      script:
+        - sh Scripts/travis_build_codecov.sh  
     - name: Ubuntu 18.04 LTS + gcc
       os: linux
       dist: bionic
