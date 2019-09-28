@@ -34,4 +34,5 @@ set(CMAKE_MACOSX_RPATH ON)
 
 # Project modules
 add_subdirectory(Libraries/doctest)
-add_subdirectory(Sources/cpp-oss-template) 
+add_subdirectory(Sources/cpp-oss-template)
+add_subdirectory(Tests/UnitTests)
