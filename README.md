@@ -1,6 +1,6 @@
 # cpp-oss-template
 
-<img src="./medias/Logo.png" width=306 height=344 />
+<img src="./Medias/Logo.png" width=306 height=344 />
 
 [![License](https://img.shields.io/badge/Licence-MIT-blue.svg)](https://github.com/utilForever/cpp-oss-template/blob/master/LICENSE) [![Build Status](https://travis-ci.org/utilForever/cpp-oss-template.svg?branch=master)](https://travis-ci.org/utilForever/cpp-oss-template/branches) [![Build status](https://ci.appveyor.com/api/projects/status/github/utilForever/cpp-oss-template?branch=master&svg=true)](https://ci.appveyor.com/project/utilForever/cpp-oss-template/branch/master)
 
